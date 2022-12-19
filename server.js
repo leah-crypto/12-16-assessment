@@ -7,7 +7,7 @@ const {shuffleArray, shuffleArray2, arrayLength} = require('./utils')
 const {ROLLBAR_TOKEN} = process.env
 const path = require('path')
 
-app.use(express.static(`${__dirname}/public`)) //idk if we need it or not
+app.use(express.static(`${__dirname}/public`)) 
 app.use(express.json())
 app.use(cors())
 
